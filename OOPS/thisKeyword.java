@@ -1,3 +1,6 @@
+// In Java, this is a reserved keyword that represents the current instance of a class. When a method or constructor is invoked 
+// on an object, this holds the reference to that specific object. The Java compiler automatically adds this reference, though 
+// programmers can explicitly use it for clarity and to resolve naming conflicts.z
 class Student{
     int i;
     String Name;
