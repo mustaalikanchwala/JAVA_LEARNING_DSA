@@ -1,4 +1,5 @@
-
+// Polymorphism => Run time => Method OverRiding
+// same Method name , Diffrent Implementation in child class
     // Co-Varient return type are allowed
     class A{
 
@@ -17,7 +18,8 @@ class Parent{
 class Child extends Parent{
     public B eat(){ // Method OverRiding
         System.out.println("overRide the method from parent class");
-        System.out.println("eating healthy food "+str);
+        System.out.println("eating healthy food ");
+        // System.out.println("eating healthy food "+str);
         return new B();
         }
 

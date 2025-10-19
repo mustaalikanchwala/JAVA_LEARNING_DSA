@@ -1,3 +1,5 @@
+// Polymorphism => compile time => Method Overloading
+// same Method name ,Diffrent Parametrs
 public class MethodsOverloading {
 
    // Method Overloading
