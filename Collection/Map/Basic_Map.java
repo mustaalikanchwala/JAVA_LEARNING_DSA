@@ -31,7 +31,8 @@ public class Basic_Map {
         for(Map.Entry<Integer,String> entry : user.entrySet()){
             System.out.println(entry.getKey() +" : "+entry.getValue());
         }
-       
+        
+         System.out.println(user); // we can print map like this also
 
     }
 }
