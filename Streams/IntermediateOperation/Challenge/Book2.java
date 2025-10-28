@@ -1,11 +1,11 @@
 
-public class Book {
+public class Book2 {
     String title;
     double OGprice;
     int publishYear;
     double discountPrice;
 
-    public Book(String title, double oGprice, int publishYear, double discountPrice) {
+    public Book2(String title, double oGprice, int publishYear, double discountPrice) {
         this.title = title;
         this.OGprice = oGprice;
         this.publishYear = publishYear;

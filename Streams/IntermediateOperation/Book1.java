@@ -1,12 +1,12 @@
 import java.util.Objects;
 
-public class Book {
+public class Book1 {
     String name;
     int publishYear;
     double price;
     String title;
 
-    public Book(String name, int publishYear, double price, String title) {
+    public Book1(String name, int publishYear, double price, String title) {
         this.name = name;
         this.publishYear = publishYear;
         this.price = price;
@@ -16,7 +16,7 @@ public class Book {
     public boolean equals(Object obj) {
         if(this == obj ) return true;
         if( obj == null || getClass() != obj.getClass()) return false;
-         Book book = (Book) obj;
+         Book1 book = (Book1) obj;
         return publishYear == book.publishYear &&
                Double.compare(book.price, price) == 0 &&
                Objects.equals(name, book.name) &&
